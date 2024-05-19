@@ -1,0 +1,22 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:us-west-1:123456789012:sns-example:09897b52-23be-449d-b332-b1d1c3711610",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "408eb92c-6993-5e05-94ec-e7ec20834d0c",
+                "TopicArn": "arn:aws:sns:us-west-1:123456789012:sns-example",
+                "Subject": null,
+                "Message": "{\"account\":\"123456789012\",\"detailType\":\"CodePipeline Pipeline Execution State Change\",\"region\":\"us-west-1\",\"source\":\"aws.codepipeline\",\"time\":\"2024-05-16T17: 47: 47Z\",\"notificationRuleArn\":\"arn:aws:codestar-notifications:us-west-1: 123456789012:notificationrule/7d68ab365bd839011a3d08e25b86deebd7f54fd0\",\"detail\":{\"pipeline\":\"dev.example.com-frontend\",\"execution-id\":\"5a7c44a9-8776-448d-b753-00c82a322f6a\",\"start-time\":\"2024-05-16T17: 41: 16.324Z\",\"state\":\"SUCCEEDED\",\"version\":2.0,\"pipeline-execution-attempt\":1.0},\"resources\":[\"arn:aws:codepipeline:us-west-1: 123456789012:dev.example.com-frontend\"],\"additionalAttributes\":{}}",
+                "Timestamp": "2024-05-16T17:48:00.614Z",
+                "SignatureVersion": "1",
+                "Signature": "U2Pov3wHhnSXhBowTZX8vAmPYfdTpqyVT1OOX9q/WrRD4+5Y89ZuU6XQBxLB0AX9ouseQvGArQLtgF8mVcPRa1jpQhuOsHbeD57Ntfb0jOFMUZ7+Z3Q8NUzurPX+fmSaWp+vsFcJ1gN6mLPKaQ2eNZgQdWD0Lr09Q54r41Wui/dfoxrGTV3s6dTOkBuszQYzb3yGnr4IkP5WE8CYQBjflX1qMEr1ayIMPNA2gPuTasR2kWI+G4XUwy+c/7Z/yLbEOmqD0V/+wMIgQk/FovgJE+K+Ktjor6/IZGzItczuGcu9lwtWvFVaVNTn1ap+HsFlPsBoDvn5TRn4UALdTCmD0g==",
+                "SigningCertUrl": "https://sns.us-west-1.amazonaws.com/SimpleNotificationService-60eadc530605d63b8e62a523676ef735.pem",
+                "UnsubscribeUrl": "https://sns.us-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-west-1:123456789012:sns-example:09897b52-23be-449d-b332-b1d1c3711610",
+                "MessageAttributes": {}
+            }
+        }
+    ]
+}
