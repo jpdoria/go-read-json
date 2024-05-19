@@ -7,7 +7,7 @@
     - `Records[0].Sns.Message.Detail`
     - `Records[0].Sns.Message.Detail.Pipeline`
     - `Records[0].Sns.Message.Detail.ExecutionId`
-    - `Records[0].Sns.Message.DetailState`
+    - `Records[0].Sns.Message.Detail.State`
 - This is a Go refresher for me. It's been a while since I last wrote code using this language. 😅
 
 # Usage
